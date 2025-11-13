@@ -12,7 +12,7 @@ switch($dia){
         $dia_sel = "Lunes";
         $prof1 = "Luigi";
         $curso1 = "BACKEND DEVELOPER WEB ";
-        $hora = "13:30 - 17:30";
+        $hora = "01:30 - 05:30";
         $entorno = "Presencial";
         $ambiente = "Aula 204";
         break;
@@ -20,33 +20,33 @@ switch($dia){
         $dia_sel = "Martes";
         $prof1 = "Luigi";
         $curso1 = "BACKEND DEVELOPER WEB ";
-        $hora = "13:30 - 17:30";
+        $hora = "01:30 - 05:30";
         $entorno = "Presencial";
         $ambiente = "Aula 204";
         break;
     case "3":
         $dia_sel = "Miércoles";
         $prof1 = "Josselyn";
-        $curso1 = "Frontend Developer";
-        $hora = "14:00 - 16:00";
-        $entorno = "Presencial";
-        $ambiente = "Aula 102";
+        $curso1 = "Técnicas de la Comunicación";
+        $hora = "04:30 - 06:00";
+        $entorno = "Virtual";
+        $ambiente = "Teams";
         break;
     case "4":
         $dia_sel = "Jueves";
         $prof1 = "Jesús";
         $curso1 = "Backend Developer Web - TEC";
-        $hora = "16:00 - 18:00";
-        $entorno = "Virtual";
-        $ambiente = "Teams";
+        $hora = "01:46 - 05:44";
+        $entorno = "Presencial";
+        $ambiente = "Aula 307-304";
         break;
     case "5":
         $dia_sel = "Viernes";
-        $prof1 = "Lucía";
-        $curso1 = "DevOps";
-        $hora = "18:00 - 20:00";
-        $entorno = "Presencial";
-        $ambiente = "Aula 103";
+        $prof1 = "No Registrado";
+        $curso1 = "No Registrado";
+        $hora = "No Registrado";
+        $entorno = "No Registrado";
+        $ambiente = "No Registrado";
         break;
     default:
         echo "<p>Día no válido.</p>";
